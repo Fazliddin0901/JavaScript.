@@ -221,3 +221,130 @@
 
 // let umumiy = summa + foiz;
 // console.log("Umumiy summa " + umumiy + "$");
+
+// dasturchidan dasturlash uchun dasturchalar
+// birinchi masala
+
+// let butunSon = Number(prompt("Butun son kiriting"));
+// console.log("siz kiritgan son " + butunSon);
+// if (butunSon > 0) {
+//   let musbat = butunSon + 1;
+//   console.log("Kutilgan son " + musbat);
+// }
+
+// ikkinchi masala
+
+// let son = Number(prompt("Sonni kiriting"));
+// console.log("Siz kiritgan son " + son);
+// if (son > 0) {
+//   let musbat = son + 1;
+//   console.log("Siz kiritgan son musbat va natija " + musbat);
+// } else if (son < 0) {
+//   let manfiy = son - 2;
+//   console.log("Siz kiritgan son manfiy va natija " + manfiy);
+// }
+
+// uchinchi masala
+
+// let son = Number(prompt("Sonni kiriting"));
+// console.log("Siz kiritgan son " + son);
+// if (son > 0) {
+//   let musbat = son + 1;
+//   console.log("Siz kiritgan son musbat va natija " + musbat);
+// } else if (son < 0) {
+//   let manfiy = son - 2;
+//   console.log("Siz kiritgan son manfiy va natija " + manfiy);
+// } else if (son == 0) {
+//   let nol = son + 10;
+//   console.log("Siz kiritgan son no`l va natija " + nol);
+// }
+
+// to`rtinchi masala
+
+// let arr = [];
+// let son1 = prompt("sonni kirit");
+// arr.push(son1);
+// let son2 = prompt("sonni kirit");
+// arr.push(son2);
+// let son3 = prompt("sonni kirit");
+// arr.push(son3);
+// let ozga = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > 0) {
+//     ozga++;
+//   } else {
+//     continue;
+//   }
+// }
+// console.log(ozga);
+
+// beshinchii masala
+
+// let son1 = Number(prompt("Sonni kirit"));
+// let son2 = Number(prompt("Sonni kirit"));
+// let son3 = Number(prompt("Sonni kirit"));
+// let musbat = "";
+// let manfiy = "";
+// if (son1 > 0) {
+//   let a = musbat++;
+// } else if (son1 < 0) {
+//   let b = manfiy++;
+// }
+
+// if (son2 > 0) {
+//   let a = musbat++;
+// } else if (son2 < 0) {
+//   let b = manfiy++;
+// }
+
+// if (son3 > 0) {
+//   let a = musbat++;
+// } else if (son3 < 0) {
+//   let b = manfiy++;
+// }
+// console.log(musbat + "ta musbat son kiritdingiz");
+// console.log(manfiy + "ta manfiy son kiritdingiz");
+
+// 6-masala
+
+// let son1 = Number(prompt("Birinchi sonni kirit"));
+// let son2 = Number(prompt("Ikkinchi sonni kirit"));
+
+// if (son1 > son2) {
+//   let a = son1 + " > " + son2;
+//   console.log(a);
+// }
+// if (son1 < son2) {
+//   let b = son2 + " > " + son1;
+//   console.log(b);
+// }
+
+// 7-masala
+
+// let son1 = Number(prompt("Birinchi sonni kirit"));
+// let son2 = Number(prompt("Ikkinchi sonni kirit"));
+
+// if (son1 > son2) {
+//   let a = "Kiritgan sonlaringizning kichigining tartib raqami   2";
+//   console.log(a);
+// }
+// if (son1 < son2) {
+//   let b = "Kiritgan sonlaringizning kichigining tartib raqami   1";
+//   console.log(b);
+// }
+
+// 8-masala
+
+// let son1 = Number(prompt("Birinchi sonni kirit"));
+// let son2 = Number(prompt("Ikkinchi sonni kirit"));
+
+// if (son1 > son2) {
+//   console.log(son1);
+//   console.log(son2);
+// }
+// if (son1 < son2) {
+//   console.log(son2);
+//   console.log(son1);
+// }
+
+// 9-masala

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(42, 120, 165);
+  width: 800px;
+  height: 300px;
+  margin: 200px auto;
+  border-radius: 10px;
+}
+.cont {
+  font-size: 40px;
+  margin: 10px 220px;
+  color: white;
+}
+.davlat-birligi {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.inpu {
+  display: flex;
+  justify-content: space-around;
+}
+.first-birlik {
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  font-size: 20px;
+}
+.natija {
+  font-size: 30px;
+  margin: 50px 360px;
+  color: white;
+}
+
+.birinchi {
+  width: 100px;
+  height: 30px;
+}

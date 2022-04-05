@@ -70,6 +70,7 @@ body {
 .cont-kub-left {
   width: 13rem;
   height: 6rem;
+  font-size: 3rem;
   border: 3px solid white;
 }
 .jarayon {
@@ -104,4 +105,9 @@ body {
 .fa-solid {
   color: red;
   font-size: 1.5rem;
+}
+
+.balll {
+  font-size: 1.5rem;
+  color: white;
 }

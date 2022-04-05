@@ -1,0 +1,63 @@
+.box {
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.678);
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.button1 {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+.a1 {
+  background-color: aqua;
+  color: #fff;
+}
+.a2 {
+  background-color: rgb(240, 1, 148);
+  color: #fff;
+}
+.a3 {
+  background-color: rgb(236, 129, 5);
+  color: #fff;
+}
+.modal {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.modal_card {
+  background-color: #333;
+  color: #fff;
+  height: 240px;
+  width: 400px;
+  padding: 10px;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.modal__parag {
+  margin-top: 30px;
+}
+.close {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: rgb(52, 161, 211);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: blueviolet;
+  width: 80rem;
+  min-height: 40rem;
+  border-radius: 1rem;
+}
+.container-todo {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: white;
+}
+.container-input-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+.kirit {
+  width: 40rem;
+  height: 3rem;
+  font-size: 3rem;
+  border-radius: 1rem;
+}
+.add {
+  width: 20rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: rgb(52, 161, 211);
+}
+.qoshamiz {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 3rem auto;
+  font-size: 2.5rem;
+  color: white;
+}
+.delete {
+  width: 8rem;
+  height: 3rem;
+  color: white;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: rgb(52, 161, 211);
+}

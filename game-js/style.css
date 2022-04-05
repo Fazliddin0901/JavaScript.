@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  background-image: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-600w-1605128917.jpg);
+  border: 1px solid white;
+}

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  background-color: rgb(208, 255, 0);
+  margin: 300px auto;
+  width: 800px;
+  display: flex;
+}
+.birinchi {
+  font-size: 150px;
+  border: royalblue solid 5px;
+  padding: 10px 50px;
+}
