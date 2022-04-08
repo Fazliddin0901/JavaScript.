@@ -10,5 +10,8 @@
   "description": "",
   "devDependencies": {
     "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
   }
 }
