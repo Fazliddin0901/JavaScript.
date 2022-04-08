@@ -1,3 +1,6 @@
+// CommanJS module type
+const login = require('./login');
+
 // import * as hammasi from './login.js';
 // console.log(hammasi.aln n la);
 
@@ -15,18 +18,20 @@
 
 // console.log('Hello1');
 
-let sot = (function () {
-  let cart = [];
-  let maxsulotSoni = 100;
-  let ishchilarSoni = 10;
-  let hammaPul = 1_000_000;
+// let sot = (function () {
+//   let cart = [];
+//   let maxsulotSoni = 100;
+//   let ishchilarSoni = 10;
+//   let hammaPul = 1_000_000;
 
-  function sotibOl(nomi, soni) {
-    cart.push({ nomi, soni });
-    console.log(`Siz ${nomi}ni ${soni} ta oldingiz`);
-  }
-  return { maxsulotSoni, ishchilarSoni, sotibOl };
-})();
+//   function sotibOl(nomi, soni) {
+//     cart.push({ nomi, soni });
+//     console.log(`Siz ${nomi}ni ${soni} ta oldingiz`);
+//   }
+//   return { maxsulotSoni, ishchilarSoni, sotibOl };
+// })();
 
-console.log(sot);
-sot.sotibOl('olma', 10);
+// console.log(sot);
+// sot.sotibOl('olma', 10);
+
+console.log(login);
