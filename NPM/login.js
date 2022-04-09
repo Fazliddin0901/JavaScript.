@@ -15,5 +15,9 @@
 //   }
 // }
 
-let a = 101;
-module.exports = { a };
+// let a = 101;
+// module.exports = { a };
+
+let a = 5;
+let b = 10;
+export { a, b };

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(./masjid2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 800px;
+}
+
+.cont {
+  width: 100vw;
+  margin-top: 20px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 40px 180px;
+}
+.first {
+  width: 600px;
+  text-decoration: none;
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  align-items: center;
+  position: relative;
+  transition: all 1s ease;
+
+  /* transform: translate(1);  */
+}
+.sst:hover {
+  transform: scale(1.1);
+}
+.rasmi {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.nomi {
+  margin-right: 100px;
+  color: white;
+}

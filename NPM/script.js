@@ -1,8 +1,10 @@
 // CommanJS module type
-const login = require('./login');
+// const login = require('./login');
 
 // import * as hammasi from './login.js';
 // console.log(hammasi.aln n la);
+
+import { a, b } from './login.js';
 
 // import { login } from './login.js';
 // login('umid', 1111);
@@ -34,4 +36,4 @@ const login = require('./login');
 // console.log(sot);
 // sot.sotibOl('olma', 10);
 
-console.log(login);
+// console.log(login);

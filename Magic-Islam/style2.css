@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100vw;
+  padding: 10px 20px;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  display: flex;
+  gap: 600px;
+  justify-content: space-around;
+  font-size: 20px;
+  align-items: center;
+}
+.iconcha {
+  color: white;
+}
+.center_text {
+  font-size: 30px;
+}
+.big_text {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.container {
+  width: 100vw;
+  margin-top: 40px;
+  border-bottom: 1px solid black;
+}
+.oyat {
+  display: flex;
+  justify-content: end;
+  padding: 30px;
+  font-size: 30px;
+}
+.w {
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 0 30px;
+}
