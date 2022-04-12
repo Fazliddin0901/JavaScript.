@@ -218,10 +218,15 @@
 //   alert("Siz hato kiritdingiz uzur aka kirgiza olmayman");
 // }
 
-let myFunc = function (obj) {
-  obj.name = "Jafar";
-  obj.age = 1;
-  console.log(obj);
-};
-myFunc("Umid");
-console.log("Umid");
+// let myFunc = function (obj) {
+//   obj.name = "Jafar";
+//   obj.age = 1;
+//   console.log(obj);
+// };
+// myFunc("Umid");
+// console.log("Umid");
+
+let a = 1 + 2;
+let b = 2;
+let result = 8 - (a = b + 3);
+console.log(result);
