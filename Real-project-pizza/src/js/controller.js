@@ -3,7 +3,7 @@ const { async } = require('regenerator-runtime');
 import * as model from './model.js';
 import recipeViev from './views/recipeView.js';
 
-const recipeContainer = document.querySelector('.recipe');
+// const recipeContainer = document.querySelector('.recipe');
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
@@ -18,11 +18,17 @@ const timeout = function (s) {
 ///////////////////////////////////////
 
 const showRecipe = async function () {
-  const id = window.location.hash.slice(1);
-  console.log(id);
-  await model.loadRecipe(id);
-  recipeContainer.innerHTML = '';
-  recipeViev.render(model.state.recipe);
+  try {
+    const id = window.location.hash.slice(1);
+
+    // console.log(id);
+    recipeViev.spinner();
+    await model.loadRecipe(id);
+
+    recipeViev.render(model.state.recipe);
+  } catch (err) {
+    alert(err);
+  }
 };
 
 window.addEventListener('hashchange', showRecipe);

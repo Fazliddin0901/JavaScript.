@@ -6,7 +6,21 @@ class RecipeView {
   render(data) {
     this.#data = data;
     if (!data) return;
+    this.#clearHTML();
     this.#generatorHTML(this.#data);
+  }
+  #clearHTML() {
+    this.#parentElement.innerHTML = '';
+  }
+
+  spinner() {
+    const htmlv = `<div class="spinner">
+    <svg>
+      <use href="${icons}#icon-loader"></use>
+    </svg>
+  </div>`;
+    this.#clearHTML();
+    this.#parentElement.insertAdjacentHTML('afterbegin', this.htmlv);
   }
 
   #generatorHTML(obj) {
