@@ -3,6 +3,9 @@ import icons from '../../img/icons.svg';
 class RecipeView {
   #parentElement = document.querySelector('.recipe');
   #data;
+
+  errorMassage =
+    'sizning malumotingiz topilmadi iltimos qaytadan urunib koring';
   render(data) {
     this.#data = data;
     if (!data) return;
@@ -104,6 +107,24 @@ class RecipeView {
       </a>
     </div>`;
     this.#parentElement.insertAdjacentHTML(`afterbegin`, html);
+  }
+
+  addHandleEvent(handle) {
+    window.addEventListener('hashchange', handle);
+    window.addEventListener('load', handle);
+  }
+
+  errorNotify() {
+    const html = `<div class="error">
+    <div>
+      <svg>
+        <use href="${icons}#icon-alert-triangle"></use>
+      </svg>
+    </div>
+    <p>${this.errorMassage}</p>
+  </div> `;
+    this.#clearHTML();
+    this.#parentElement.insertAdjacentHTML('afterbegin', html);
   }
 
   #renderIng(data) {
