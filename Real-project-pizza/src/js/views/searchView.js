@@ -1,17 +1,15 @@
-class searchView {
+class SearchView {
   #parentElement = document.querySelector('.search');
 
-  getValue() {
+  getQuery() {
     const val = document.querySelector('.search__field').value;
-    console.log(val);
+    return val;
   }
-
-  addHandleEvent(handle) {
+  addHandlerEvent(handle) {
     this.#parentElement.addEventListener('submit', function (e) {
       e.preventDefault();
-      const data = this.getValue();
-      console.log(data);
+      handle();
     });
   }
 }
-export default new searchView();
+export default new SearchView();
